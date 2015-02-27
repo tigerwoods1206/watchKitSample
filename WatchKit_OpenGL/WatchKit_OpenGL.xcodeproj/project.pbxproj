@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7608EFFA1A1DE8D400DAD596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608EFF91A1DE8D400DAD596 /* main.m */; };
+		7608EFFD1A1DE8D400DAD596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608EFFC1A1DE8D400DAD596 /* AppDelegate.m */; };
+		7608EFFF1A1DE8D400DAD596 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7608EFFE1A1DE8D400DAD596 /* Shader.fsh */; };
+		7608F0011A1DE8D400DAD596 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 7608F0001A1DE8D400DAD596 /* Shader.vsh */; };
+		7608F0041A1DE8D400DAD596 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608F0031A1DE8D400DAD596 /* GameViewController.m */; };
+		7608F0071A1DE8D400DAD596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7608F0051A1DE8D400DAD596 /* Main.storyboard */; };
+		7608F0091A1DE8D400DAD596 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7608F0081A1DE8D400DAD596 /* Images.xcassets */; };
+		7608F00C1A1DE8D400DAD596 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7608F00A1A1DE8D400DAD596 /* LaunchScreen.xib */; };
+		7608F0181A1DE8D400DAD596 /* WatchKit_OpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608F0171A1DE8D400DAD596 /* WatchKit_OpenGLTests.m */; };
+		765D6D6C1A1DE9100051B42C /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765D6D6B1A1DE9100051B42C /* WatchKit.framework */; };
+		765D6D731A1DE9100051B42C /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765D6D721A1DE9100051B42C /* InterfaceController.m */; };
+		765D6D761A1DE9100051B42C /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765D6D751A1DE9100051B42C /* NotificationController.m */; };
+		765D6D781A1DE9100051B42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765D6D771A1DE9100051B42C /* Images.xcassets */; };
+		765D6D7C1A1DE9100051B42C /* WatchKit_OpenGL Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 765D6D7B1A1DE9100051B42C /* WatchKit_OpenGL Watch App.app */; };
+		765D6D831A1DE9100051B42C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765D6D821A1DE9100051B42C /* Interface.storyboard */; };
+		765D6D851A1DE9100051B42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765D6D841A1DE9100051B42C /* Images.xcassets */; };
+		765D6D881A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 765D6D691A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7608F0121A1DE8D400DAD596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7608EFEC1A1DE8D400DAD596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7608EFF31A1DE8D400DAD596;
+			remoteInfo = WatchKit_OpenGL;
+		};
+		765D6D7D1A1DE9100051B42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7608EFEC1A1DE8D400DAD596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765D6D7A1A1DE9100051B42C;
+			remoteInfo = "WatchKit_OpenGL Watch App";
+		};
+		765D6D861A1DE9100051B42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7608EFEC1A1DE8D400DAD596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765D6D681A1DE9100051B42C;
+			remoteInfo = "WatchKit_OpenGL WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		765D6D8F1A1DE9110051B42C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				765D6D881A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7608EFF41A1DE8D400DAD596 /* WatchKit_OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKit_OpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7608EFF81A1DE8D400DAD596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7608EFF91A1DE8D400DAD596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7608EFFB1A1DE8D400DAD596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7608EFFC1A1DE8D400DAD596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7608EFFE1A1DE8D400DAD596 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		7608F0001A1DE8D400DAD596 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		7608F0021A1DE8D400DAD596 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7608F0031A1DE8D400DAD596 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		7608F0061A1DE8D400DAD596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7608F0081A1DE8D400DAD596 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7608F00B1A1DE8D400DAD596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7608F0111A1DE8D400DAD596 /* WatchKit_OpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchKit_OpenGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7608F0161A1DE8D400DAD596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7608F0171A1DE8D400DAD596 /* WatchKit_OpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchKit_OpenGLTests.m; sourceTree = "<group>"; };
+		765D6D691A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKit_OpenGL WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765D6D6B1A1DE9100051B42C /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		765D6D6F1A1DE9100051B42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765D6D701A1DE9100051B42C /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		765D6D711A1DE9100051B42C /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		765D6D721A1DE9100051B42C /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		765D6D741A1DE9100051B42C /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		765D6D751A1DE9100051B42C /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		765D6D771A1DE9100051B42C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		765D6D7B1A1DE9100051B42C /* WatchKit_OpenGL Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKit_OpenGL Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765D6D811A1DE9100051B42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765D6D821A1DE9100051B42C /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		765D6D841A1DE9100051B42C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7608EFF11A1DE8D400DAD596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7608F00E1A1DE8D400DAD596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765D6D661A1DE9100051B42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765D6D6C1A1DE9100051B42C /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7608EFEB1A1DE8D400DAD596 = {
+			isa = PBXGroup;
+			children = (
+				7608EFF61A1DE8D400DAD596 /* WatchKit_OpenGL */,
+				7608F0141A1DE8D400DAD596 /* WatchKit_OpenGLTests */,
+				765D6D6D1A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension */,
+				765D6D7F1A1DE9100051B42C /* WatchKit_OpenGL Watch App */,
+				765D6D6A1A1DE9100051B42C /* Frameworks */,
+				7608EFF51A1DE8D400DAD596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7608EFF51A1DE8D400DAD596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7608EFF41A1DE8D400DAD596 /* WatchKit_OpenGL.app */,
+				7608F0111A1DE8D400DAD596 /* WatchKit_OpenGLTests.xctest */,
+				765D6D691A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension.appex */,
+				765D6D7B1A1DE9100051B42C /* WatchKit_OpenGL Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7608EFF61A1DE8D400DAD596 /* WatchKit_OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				7608EFFB1A1DE8D400DAD596 /* AppDelegate.h */,
+				7608EFFC1A1DE8D400DAD596 /* AppDelegate.m */,
+				7608EFFE1A1DE8D400DAD596 /* Shader.fsh */,
+				7608F0001A1DE8D400DAD596 /* Shader.vsh */,
+				7608F0021A1DE8D400DAD596 /* GameViewController.h */,
+				7608F0031A1DE8D400DAD596 /* GameViewController.m */,
+				7608F0051A1DE8D400DAD596 /* Main.storyboard */,
+				7608F0081A1DE8D400DAD596 /* Images.xcassets */,
+				7608F00A1A1DE8D400DAD596 /* LaunchScreen.xib */,
+				7608EFF71A1DE8D400DAD596 /* Supporting Files */,
+			);
+			path = WatchKit_OpenGL;
+			sourceTree = "<group>";
+		};
+		7608EFF71A1DE8D400DAD596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7608EFF81A1DE8D400DAD596 /* Info.plist */,
+				7608EFF91A1DE8D400DAD596 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7608F0141A1DE8D400DAD596 /* WatchKit_OpenGLTests */ = {
+			isa = PBXGroup;
+			children = (
+				7608F0171A1DE8D400DAD596 /* WatchKit_OpenGLTests.m */,
+				7608F0151A1DE8D400DAD596 /* Supporting Files */,
+			);
+			path = WatchKit_OpenGLTests;
+			sourceTree = "<group>";
+		};
+		7608F0151A1DE8D400DAD596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7608F0161A1DE8D400DAD596 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		765D6D6A1A1DE9100051B42C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				765D6D6B1A1DE9100051B42C /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		765D6D6D1A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				765D6D711A1DE9100051B42C /* InterfaceController.h */,
+				765D6D721A1DE9100051B42C /* InterfaceController.m */,
+				765D6D741A1DE9100051B42C /* NotificationController.h */,
+				765D6D751A1DE9100051B42C /* NotificationController.m */,
+				765D6D771A1DE9100051B42C /* Images.xcassets */,
+				765D6D6E1A1DE9100051B42C /* Supporting Files */,
+			);
+			path = "WatchKit_OpenGL WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		765D6D6E1A1DE9100051B42C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				765D6D6F1A1DE9100051B42C /* Info.plist */,
+				765D6D701A1DE9100051B42C /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		765D6D7F1A1DE9100051B42C /* WatchKit_OpenGL Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				765D6D821A1DE9100051B42C /* Interface.storyboard */,
+				765D6D841A1DE9100051B42C /* Images.xcassets */,
+				765D6D801A1DE9100051B42C /* Supporting Files */,
+			);
+			path = "WatchKit_OpenGL Watch App";
+			sourceTree = "<group>";
+		};
+		765D6D801A1DE9100051B42C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				765D6D811A1DE9100051B42C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7608EFF31A1DE8D400DAD596 /* WatchKit_OpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7608F01B1A1DE8D400DAD596 /* Build configuration list for PBXNativeTarget "WatchKit_OpenGL" */;
+			buildPhases = (
+				7608EFF01A1DE8D400DAD596 /* Sources */,
+				7608EFF11A1DE8D400DAD596 /* Frameworks */,
+				7608EFF21A1DE8D400DAD596 /* Resources */,
+				765D6D8F1A1DE9110051B42C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765D6D871A1DE9100051B42C /* PBXTargetDependency */,
+			);
+			name = WatchKit_OpenGL;
+			productName = WatchKit_OpenGL;
+			productReference = 7608EFF41A1DE8D400DAD596 /* WatchKit_OpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7608F0101A1DE8D400DAD596 /* WatchKit_OpenGLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7608F01E1A1DE8D400DAD596 /* Build configuration list for PBXNativeTarget "WatchKit_OpenGLTests" */;
+			buildPhases = (
+				7608F00D1A1DE8D400DAD596 /* Sources */,
+				7608F00E1A1DE8D400DAD596 /* Frameworks */,
+				7608F00F1A1DE8D400DAD596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7608F0131A1DE8D400DAD596 /* PBXTargetDependency */,
+			);
+			name = WatchKit_OpenGLTests;
+			productName = WatchKit_OpenGLTests;
+			productReference = 7608F0111A1DE8D400DAD596 /* WatchKit_OpenGLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		765D6D681A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765D6D8E1A1DE9110051B42C /* Build configuration list for PBXNativeTarget "WatchKit_OpenGL WatchKit Extension" */;
+			buildPhases = (
+				765D6D651A1DE9100051B42C /* Sources */,
+				765D6D661A1DE9100051B42C /* Frameworks */,
+				765D6D671A1DE9100051B42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765D6D7E1A1DE9100051B42C /* PBXTargetDependency */,
+			);
+			name = "WatchKit_OpenGL WatchKit Extension";
+			productName = "WatchKit_OpenGL WatchKit Extension";
+			productReference = 765D6D691A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		765D6D7A1A1DE9100051B42C /* WatchKit_OpenGL Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765D6D8D1A1DE9110051B42C /* Build configuration list for PBXNativeTarget "WatchKit_OpenGL Watch App" */;
+			buildPhases = (
+				765D6D791A1DE9100051B42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchKit_OpenGL Watch App";
+			productName = "WatchKit_OpenGL Watch App";
+			productReference = 765D6D7B1A1DE9100051B42C /* WatchKit_OpenGL Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7608EFEC1A1DE8D400DAD596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = isao;
+				TargetAttributes = {
+					7608EFF31A1DE8D400DAD596 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7608F0101A1DE8D400DAD596 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7608EFF31A1DE8D400DAD596;
+					};
+					765D6D681A1DE9100051B42C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					765D6D7A1A1DE9100051B42C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 7608EFEF1A1DE8D400DAD596 /* Build configuration list for PBXProject "WatchKit_OpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7608EFEB1A1DE8D400DAD596;
+			productRefGroup = 7608EFF51A1DE8D400DAD596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7608EFF31A1DE8D400DAD596 /* WatchKit_OpenGL */,
+				7608F0101A1DE8D400DAD596 /* WatchKit_OpenGLTests */,
+				765D6D681A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension */,
+				765D6D7A1A1DE9100051B42C /* WatchKit_OpenGL Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7608EFF21A1DE8D400DAD596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608F00C1A1DE8D400DAD596 /* LaunchScreen.xib in Resources */,
+				7608F0071A1DE8D400DAD596 /* Main.storyboard in Resources */,
+				7608F0091A1DE8D400DAD596 /* Images.xcassets in Resources */,
+				7608F0011A1DE8D400DAD596 /* Shader.vsh in Resources */,
+				7608EFFF1A1DE8D400DAD596 /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7608F00F1A1DE8D400DAD596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765D6D671A1DE9100051B42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765D6D781A1DE9100051B42C /* Images.xcassets in Resources */,
+				765D6D7C1A1DE9100051B42C /* WatchKit_OpenGL Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765D6D791A1DE9100051B42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765D6D831A1DE9100051B42C /* Interface.storyboard in Resources */,
+				765D6D851A1DE9100051B42C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7608EFF01A1DE8D400DAD596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608EFFD1A1DE8D400DAD596 /* AppDelegate.m in Sources */,
+				7608F0041A1DE8D400DAD596 /* GameViewController.m in Sources */,
+				7608EFFA1A1DE8D400DAD596 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7608F00D1A1DE8D400DAD596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608F0181A1DE8D400DAD596 /* WatchKit_OpenGLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765D6D651A1DE9100051B42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765D6D761A1DE9100051B42C /* NotificationController.m in Sources */,
+				765D6D731A1DE9100051B42C /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7608F0131A1DE8D400DAD596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7608EFF31A1DE8D400DAD596 /* WatchKit_OpenGL */;
+			targetProxy = 7608F0121A1DE8D400DAD596 /* PBXContainerItemProxy */;
+		};
+		765D6D7E1A1DE9100051B42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765D6D7A1A1DE9100051B42C /* WatchKit_OpenGL Watch App */;
+			targetProxy = 765D6D7D1A1DE9100051B42C /* PBXContainerItemProxy */;
+		};
+		765D6D871A1DE9100051B42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765D6D681A1DE9100051B42C /* WatchKit_OpenGL WatchKit Extension */;
+			targetProxy = 765D6D861A1DE9100051B42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7608F0051A1DE8D400DAD596 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7608F0061A1DE8D400DAD596 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7608F00A1A1DE8D400DAD596 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7608F00B1A1DE8D400DAD596 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7608F0191A1DE8D400DAD596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7608F01A1A1DE8D400DAD596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7608F01C1A1DE8D400DAD596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchKit_OpenGL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7608F01D1A1DE8D400DAD596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchKit_OpenGL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7608F01F1A1DE8D400DAD596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchKit_OpenGLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchKit_OpenGL.app/WatchKit_OpenGL";
+			};
+			name = Debug;
+		};
+		7608F0201A1DE8D400DAD596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchKit_OpenGLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchKit_OpenGL.app/WatchKit_OpenGL";
+			};
+			name = Release;
+		};
+		765D6D891A1DE9110051B42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchKit_OpenGL WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		765D6D8A1A1DE9110051B42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchKit_OpenGL WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		765D6D8B1A1DE9110051B42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchKit_OpenGL_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchKit_OpenGL Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		765D6D8C1A1DE9110051B42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = WatchKit_OpenGL_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchKit_OpenGL Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7608EFEF1A1DE8D400DAD596 /* Build configuration list for PBXProject "WatchKit_OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7608F0191A1DE8D400DAD596 /* Debug */,
+				7608F01A1A1DE8D400DAD596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7608F01B1A1DE8D400DAD596 /* Build configuration list for PBXNativeTarget "WatchKit_OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7608F01C1A1DE8D400DAD596 /* Debug */,
+				7608F01D1A1DE8D400DAD596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7608F01E1A1DE8D400DAD596 /* Build configuration list for PBXNativeTarget "WatchKit_OpenGLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7608F01F1A1DE8D400DAD596 /* Debug */,
+				7608F0201A1DE8D400DAD596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765D6D8D1A1DE9110051B42C /* Build configuration list for PBXNativeTarget "WatchKit_OpenGL Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765D6D8B1A1DE9110051B42C /* Debug */,
+				765D6D8C1A1DE9110051B42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		765D6D8E1A1DE9110051B42C /* Build configuration list for PBXNativeTarget "WatchKit_OpenGL WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765D6D891A1DE9110051B42C /* Debug */,
+				765D6D8A1A1DE9110051B42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7608EFEC1A1DE8D400DAD596 /* Project object */;
+}
