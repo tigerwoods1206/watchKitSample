@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <imageView alignment="left" hidden="YES" id="KZk-qE-UiV"/>
+                        <dateLabel alignment="left" format="yyyy/MM/dd hh:mm:ss" id="N2W-7K-IcY"/>
+                        <button width="1" alignment="left" title="iOS起動" id="zhg-E3-z0P">
+                            <connections>
+                                <action selector="firstButtonAction:" destination="AgC-eL-Hgc" id="kbe-ja-3U8"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="anime" id="bXd-C4-BVr">
+                            <connections>
+                                <action selector="SecondButtonAction:" destination="AgC-eL-Hgc" id="T2h-DS-ht7"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imgSpriteAnimation" destination="KZk-qE-UiV" id="IFc-pO-tuB"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController">
+                    <items>
+                        <label alignment="left" text="iOS Message is Here" id="DMg-dO-RnR"/>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="DMg-dO-RnR" id="MPF-Q9-jNs"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
