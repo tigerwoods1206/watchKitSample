@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,7 @@
 
 - (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply{
     
-    if ([[userInfo objectForKey:@"request"] isEqualToString:@"Hello"]) {
+    if ([[userInfo objectForKey:@"request"] isEqualToString:@"OpenAPP"]) {
         
         NSLog(@"containing app received message from watch");
         

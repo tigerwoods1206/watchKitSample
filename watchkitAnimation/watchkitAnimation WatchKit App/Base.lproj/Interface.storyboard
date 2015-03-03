@@ -12,19 +12,21 @@
                     <items>
                         <imageView alignment="left" hidden="YES" id="KZk-qE-UiV"/>
                         <dateLabel alignment="left" format="yyyy/MM/dd hh:mm:ss" id="N2W-7K-IcY"/>
-                        <button width="1" alignment="left" title="iOS起動" id="zhg-E3-z0P">
-                            <connections>
-                                <action selector="firstButtonAction:" destination="AgC-eL-Hgc" id="kbe-ja-3U8"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="anime" id="bXd-C4-BVr">
+                        <label alignment="left" text="受信したメッセージがここに" minimumScaleFactor="0.60000000000000009" id="jul-oQ-P3e"/>
+                        <button width="1" alignment="left" title="static anime" id="bXd-C4-BVr">
                             <connections>
                                 <action selector="SecondButtonAction:" destination="AgC-eL-Hgc" id="T2h-DS-ht7"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="dynamic anime" id="TTO-5Z-hca">
+                            <connections>
+                                <action selector="firstButtonAction:" destination="AgC-eL-Hgc" id="rPG-yq-2CC"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
                         <outlet property="imgSpriteAnimation" destination="KZk-qE-UiV" id="IFc-pO-tuB"/>
+                        <outlet property="label" destination="jul-oQ-P3e" id="MQU-gz-2Yh"/>
                     </connections>
                 </controller>
             </objects>
